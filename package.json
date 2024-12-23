@@ -1,0 +1,31 @@
+{
+  "name": "afterimage_shader_for_r3f",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "finnianj",
+  "license": "MIT",
+  "description": "An adapted afterimage shader for React Three Fiber (R3F)",
+ "devDependencies": {
+    "@types/node": "^20.12.11",
+    "@types/react": "^18.2.69",
+    "@types/react-dom": "^18.2.22",
+    "@types/three": "^0.162.0",
+    "@vitejs/plugin-react": "4.1",
+    "typescript": "^5.4.3",
+    "vite": "^4.5.0",
+    "vite-plugin-glsl": "^1.1.2"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.102.6",
+    "@react-three/fiber": "^8.15.19",
+    "@react-three/postprocessing": "^2.16.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.158.0",
+    "vite-tsconfig-paths": "^4.3.2"
+  }
+}
